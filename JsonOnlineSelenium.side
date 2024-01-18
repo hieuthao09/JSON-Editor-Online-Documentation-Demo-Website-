@@ -1,0 +1,926 @@
+{
+  "id": "1e26f6b6-80ff-4c27-9fd4-ca51050a3942",
+  "version": "2.0",
+  "name": "2001207001_HieuThao",
+  "url": "https://jsoneditoronline.org",
+  "tests": [{
+    "id": "2e4f4676-622e-4aea-9af5-1edb1e874ed6",
+    "name": "TC04",
+    "commands": [{
+      "id": "3a379347-ba13-424d-80c0-06f2d6305566",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1a47a44-72d3-4732-8bbd-14cc1543f7ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9332d4fc-461e-48d0-9e85-bb38421ace63",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0900a1e7-3656-414a-965a-1fffb55b9484",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "82ae4c6b-8e81-467a-8fec-eaea4136d88d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-menu > .static-dropdown-description",
+      "targets": [
+        ["css=.theme-menu > .static-dropdown-description", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcfb37bb-1d33-498f-8e69-6c4712231dcb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Dark')]",
+      "targets": [
+        ["css=.selected:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c026a741-e7cb-41c2-8f57-d6d8c9f052b8",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "79fa4065-2784-40ff-9065-7fb7df4d0a87",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Green (default)')]",
+      "targets": [
+        ["css=.jse-theme-color-green:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' Green (default)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbf76f85-9137-419e-a711-2aacf4a72b1b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3e633147-4d65-4a90-b789-1d70c00caabd",
+    "name": "TC06",
+    "commands": [{
+      "id": "3e344e88-e63c-4596-b81b-920eb1123ba0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7014cf1-4c8b-4c25-91e2-a0d1b482ad4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3ec22be-68f8-40ab-9fcc-63d8a879be1e",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5239b831-2b5c-4b53-b4cb-387ba3bef0e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(2)",
+      "targets": [
+        ["css=.right > .button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f11e1fd-6a7c-4aba-949e-d9b518886c5f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.right > .button:nth-child(2)",
+      "targets": [
+        ["css=.right > .button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "daade19d-0e21-4ad9-a9b8-b6d286516436",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(3)",
+      "targets": [
+        ["css=.right > .button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b755be52-aeca-4b7e-a487-c90f2482798b",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "08773bb2-dac3-4784-83ba-8edbd9f9a46d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Dark')]",
+      "targets": [
+        ["css=.selected:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ee8ae3-5260-4734-8531-4b54b5a2531e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Blue')]",
+      "targets": [
+        ["css=.jse-theme-color-blue", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,' Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a5a16d-651c-40e9-8762-f291c909adfd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f4251e51-85b1-4823-b4c9-28913a77a014",
+    "name": "TC01",
+    "commands": [{
+      "id": "44d7094f-4969-470d-a0b6-a0db93ecff62",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2f977b7-6c60-425a-b62b-4afe18c3a323",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92203618-d13f-4774-a5a2-51ec7fa46673",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eece775-16ec-4a6e-9ec8-115d0044458c",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "cdab11b1-5ec1-442d-bc2c-84ce228ac1fe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(3)",
+      "targets": [
+        ["css=.right > .button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3025c1f8-fd15-4a88-b680-91d8bf253a97",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Light')]",
+      "targets": [
+        ["css=.right > .button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a964925b-f271-4aaa-beb2-4e75eb14f893",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.selected:nth-child(3)",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ddd296a-7814-4044-bb59-23e314491031",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Green (default)')]",
+      "targets": [
+        ["css=.jse-theme-color-green", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' Green (default)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e28f72b-14e0-42c5-b124-3cf9eb076667",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f787cfa3-9275-43a9-a905-dd7223915322",
+    "name": "TC02",
+    "commands": [{
+      "id": "f685bd2b-0f00-4f7f-90cf-5147008813b1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "950509d6-a867-4dbf-bdc9-05d10c3f0f45",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74a88d7d-f260-4fad-af40-d4539fd83af1",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cfdbd08-ce06-4a68-8b1b-520a0853e77a",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "b9f385dd-2356-41d6-9b08-18b14a1e2d4b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.static-dropdown-description > .svg-inline--fa:nth-child(2)",
+      "targets": [
+        ["css=.static-dropdown-description > .svg-inline--fa:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e65bd1-1142-46ce-a225-bedd7d734281",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Light')]",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57f496bc-d0d1-404f-9784-72cae0653c53",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Red')]",
+      "targets": [
+        ["css=.jse-theme-color-red", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,' Red')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40a81937-4a94-4c9e-aba9-d04a04b6ecb6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3d0ac8fa-c808-4fda-bf77-6600dc0c1779",
+    "name": "TC03",
+    "commands": [{
+      "id": "5d0133df-ce26-40f1-b950-52b7c2f5eb07",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f97f7063-37e4-44a1-a166-f5e8439e1116",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9649ddf4-da66-4760-bdd4-bfacb2f88ac6",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ff50f6a-8d86-435b-bebd-85d59dd740ef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.selected:nth-child(3)",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d7c855b-e1fd-4759-8948-5a1db51a16d3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.selected:nth-child(3)",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d7eb20a-e984-4ced-b8d1-c85329b83443",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "cae46d40-2d82-4167-b0c7-1c716845552e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.selected:nth-child(3)",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c084ce1-c0e6-4e84-bea8-0868ab1f16ab",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Light')]",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cad2348-6125-4a5a-8ddc-7b935f4d9691",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.selected:nth-child(3)",
+      "targets": [
+        ["css=.selected:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db35750e-4928-41e8-be0f-e1f7d3cf5db3",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,' Blue')]",
+      "targets": [
+        ["css=.jse-theme-color-blue", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,' Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a58ccba-b56c-4540-8c0e-bebbe05a5405",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a > img",
+      "targets": [
+        ["css=a > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn.ramp-assets.playwire.com/1024318/72735/house_ads/file-1663785183253.png')]", "xpath:img"],
+        ["xpath=//div[@id='pw-160x600_atf']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ee5b329-6a28-4ce0-88ec-fca8357a3cf5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "996de965-959d-4a63-b947-4201b2d608c8",
+    "name": "TC05",
+    "commands": [{
+      "id": "e5bf59b4-1bb5-43d4-876e-b73b96ee9062",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ec8eef2-db7a-47ac-a353-2f4739876e42",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e77329e-d317-48e9-a249-742689c8462f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a89d5ed-3d57-4aca-908e-75c5c2269ec1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(4)",
+      "targets": [
+        ["css=.right > .button:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b211b82-4451-4447-a94b-c940a70d82d4",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "d89bcccd-4c84-476e-a4cc-3867955cf730",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right > .button:nth-child(4)",
+      "targets": [
+        ["css=.right > .button:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9462d19-c96b-4195-9380-b8c043777202",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.selected:nth-child(4)",
+      "targets": [
+        ["css=.selected:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b165b6ce-5a4f-4cff-9f03-7e5c9b53d2dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jse-theme-color-red",
+      "targets": [
+        ["css=.jse-theme-color-red", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,' Red')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d453f179-7e36-4f64-8276-88d935c0ae28",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "033836be-0d9f-438b-acd1-3852ff3d5d80",
+    "name": "TC07",
+    "commands": [{
+      "id": "baf7f1d4-9a90-415a-80a5-d00b40ee8bff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2e2f826-16c7-4649-b2e4-bafecfadf5e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0cf24ab-8d43-4406-bb2b-7b4cdc887a6a",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39a97f65-bc19-4eea-afa2-cd4239d70578",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "ed71bc89-0995-4883-b8cb-3f4c2d1c90d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.right > .button:nth-child(2)",
+      "targets": [
+        ["css=.right > .button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e93930f1-0413-47d7-8898-128ceaf4d5c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(2)",
+      "targets": [
+        ["css=.right > .button:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b8d43d9-ea75-4340-9b91-50f7b5efeba5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.selected:nth-child(2)",
+      "targets": [
+        ["css=.selected:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb0a392d-9feb-4b73-b0c1-508dd171f58c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(4)",
+      "targets": [
+        ["css=.right > .button:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f52b42-b917-43a5-94d3-908fa5cbde8c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.right > .button:nth-child(4)",
+      "targets": [
+        ["css=.right > .button:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,' Dark')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ebac9fe-b78d-4d64-af2a-dcd30775cfdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jse-theme-color-green",
+      "targets": [
+        ["css=.jse-theme-color-green", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' Green (default)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee8ce8ad-3650-435f-91ab-e42710a2ae67",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "62ed43b3-83aa-43d4-a456-067a5c2cfe2e",
+    "name": "TC08",
+    "commands": [{
+      "id": "9894ae1f-ac2f-4d97-b265-71b19ad253b3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d76b5bf4-246a-4c9f-855b-f2785434edec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e64e5383-5aaa-4bb8-8a74-aae310e30635",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "149142fa-10c3-4c1e-ba7f-524e30be1073",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "fe016672-5c2a-4c6a-8844-de73966d2d34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme-menu > .static-dropdown-description",
+      "targets": [
+        ["css=.theme-menu > .static-dropdown-description", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdabcef-e6bd-4f56-8660-2da8d3e50fca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected:nth-child(2)",
+      "targets": [
+        ["css=.selected:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b0e876a-84bf-4a4d-843a-3b02d60a0017",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jse-theme-color-green:nth-child(6)",
+      "targets": [
+        ["css=.jse-theme-color-green:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' Green (default)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc3d6bb-2ea4-454b-aad6-c560775f6d13",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.jse-theme-color-green:nth-child(6)",
+      "targets": [
+        ["css=.jse-theme-color-green:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,' Green (default)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23d1657-9bdb-460c-8465-1ec49141b527",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jse-theme-color-red",
+      "targets": [
+        ["css=.jse-theme-color-red", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,' Red')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e06204-85e4-4660-9763-3127359271dd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2d7316d3-f2fa-478f-b82a-3c5970033764",
+    "name": "TC09",
+    "commands": [{
+      "id": "c2e6008b-e2bd-4c8c-a9be-960a09212952",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb010266-bd8c-4094-9394-a640588e2606",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8f26516-9bb7-4066-b864-55093fa30c63",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "JSON Editor Online: edit JSON, format JSON, query JSON",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9d9f938-1f46-48b9-9cd8-fb98f2ecb040",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.cm-content",
+      "targets": [
+        ["css=.cm-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "<div class=\"cm-activeLine cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">{</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"array\"</span>: [</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">1</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">2</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼp\">3</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  ],</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"boolean\"</span>: <span class=\"ͼq\">true</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"color\"</span>: <span class=\"ͼr\">\"gold\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"null\"</span>: <span class=\"ͼs\">null</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"number\"</span>: <span class=\"ͼp\">123</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"object\"</span>: {</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"a\"</span>: <span class=\"ͼr\">\"b\"</span>,</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat,repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 2.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(6ch + 6px); text-indent: -6ch;\">    <span class=\"ͼo\">\"c\"</span>: <span class=\"ͼr\">\"d\"</span></div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  },</div><div class=\"cm-indent-markers cm-line\" style=\"--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat; padding-left: calc(4ch + 6px); text-indent: -4ch;\">  <span class=\"ͼo\">\"string\"</span>: <span class=\"ͼr\">\"Hello World\"</span></div><div class=\"cm-line\" style=\"padding-left: calc(2ch + 6px); text-indent: -2ch;\">}</div>"
+    }, {
+      "id": "cc14286f-9618-44e2-b989-e62c678e6e2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected:nth-child(2)",
+      "targets": [
+        ["css=.selected:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3d7da0-2fb7-44bc-9f08-4567f1f1af94",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.selected:nth-child(2)",
+      "targets": [
+        ["css=.selected:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d446e23-aaa5-4532-8652-f4681ca083a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.selected:nth-child(2)",
+      "targets": [
+        ["css=.selected:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,' Browser default')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5a03828-ec25-48d7-9c65-756553f724b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.right > .button:nth-child(3)",
+      "targets": [
+        ["css=.right > .button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f77888-9918-408a-9782-4f37c30fbdb9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.right > .button:nth-child(3)",
+      "targets": [
+        ["css=.right > .button:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Light')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1edff956-a9ef-4f77-aa65-90b81adeac43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jse-theme-color-blue",
+      "targets": [
+        ["css=.jse-theme-color-blue", "css:finder"],
+        ["xpath=//div[@id='theme-toggle']/div/div[2]/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,' Blue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00f64ef3-dff0-4271-8ab2-eee7ce3befc6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b2269aa1-94f0-41bf-b2c9-bb6984e08fa0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2e4f4676-622e-4aea-9af5-1edb1e874ed6"]
+  }],
+  "urls": ["https://jsoneditoronline.org/"],
+  "plugins": []
+}
